@@ -34,7 +34,7 @@ const DiscoverProducts = () => {
             </div>
 
             {/* cards */}
-            <div className="flex max-w-[90rem] mx-auto gap-x-5  pt-8 justify-center items-center">
+            <div className="flex max-w-[90rem] mx-auto gap-x-5  pt-20 justify-center items-center">
                 <DiscoverCards productTitle={"Spoon Set"} productImg={img1} productPrice={"144.89"} />
                 <DiscoverCards productTitle={"Knife Set(Black)"} productImg={img2} productPrice={"154.91"} />
                 <DiscoverCards productTitle={"Knife Set(White)"} productImg={img3} productPrice={"188.89"} />

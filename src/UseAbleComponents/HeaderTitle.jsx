@@ -1,6 +1,6 @@
 
 const HeaderTitle = ({ title }) => {
-    return <p className="text-7xl font-primary uppercase text-textPrimary py-24 w-1/3 text-center mx-auto tracking-wide">
+    return <p className="text-6xl font-primary uppercase text-textPrimary pt-16 pb-5 w-[30%] text-center mx-auto tracking-wide">
         {title}
     </p>
 }
