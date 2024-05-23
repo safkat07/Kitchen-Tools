@@ -1,4 +1,5 @@
 import Banner from "./Components/Banner/Banner"
+import BlewLinks from "./Components/BlewLinks/BlewLinks"
 import ClearenceSell from "./Components/ClearenceSell/ClearenceSell"
 import DiscoverProducts from "./Components/DiscoverProducts/DiscoverProducts"
 import ExclusiveDeals from "./Components/ExclusiveDeals/ExclusiveDeals"
@@ -16,6 +17,7 @@ const MainLayout = () => {
       <JoinCulinary />
       <ExperinenceFlavour />
       <ExclusiveDeals />
+      <BlewLinks />
     </>
   )
 }
