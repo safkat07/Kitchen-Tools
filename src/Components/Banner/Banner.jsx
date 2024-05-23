@@ -14,7 +14,7 @@ const Banner = () => {
                         COOK’S TOOLS
                     </li>
                 </ul>
-                <button className="uppercase text-textSecondary text-white z-[99] font-primary text-xl border-2 px-3 border-white py-2">
+                <button className="uppercase text-textSecondary text-white z-[99] font-primary text-xl border-2 hover:bg-secondary hover:text-textPrimary transition-all duration-500 hover:bg-none px-3 border-white py-2">
                     Sign-Up
                 </button>
             </nav>
