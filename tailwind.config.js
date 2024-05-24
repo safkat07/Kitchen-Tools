@@ -12,6 +12,11 @@ export default {
       "textSecondary": "#FFF2E1",
     },
     extend: {
+      fontSize: {
+        'responsive-lg': 'clamp(1.5rem, 2vw + 1rem, 3rem)',
+        'responsive-md': 'clamp(1rem, 1.5vw + 1rem, 2rem)',
+        'responsive-sm': 'clamp(0.875rem, 1vw + 0.5rem, 1.5rem)',
+      },
       fontFamily: {
         "title": ["Saira Stencil One", "sans-serif"],
         "primary": ["Lilita One", "sans-serif"],
