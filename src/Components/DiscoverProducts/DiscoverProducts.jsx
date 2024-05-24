@@ -15,10 +15,10 @@ import Button from "../../UseAbleComponents/Button"
 
 const DiscoverProducts = () => {
     return (
-        <div className="h-[110vh] relative bg-secondary">
+        <div className="h-auto relative bg-secondary">
             <HeaderTitle title={"Discover Our Products"} />
             <div className="flex justify-center items-center">
-                <ul className="flex items-center justify-center gap-x-10 text-textPrimary font-secondary text-[1.5rem]">
+                <ul className="flex items-center  justify-center gap-x-10 text-textPrimary font-secondary text-responsive-sm">
                     <li className="border-b-2 cursor-pointer">
                         Best Seller
                     </li>
@@ -35,13 +35,13 @@ const DiscoverProducts = () => {
             </div>
 
             {/* cards */}
-            <div className="flex max-w-[100rem]  mx-auto   pt-20 justify-center items-center">
+            <div className="grid  lg:grid-cols-4 gap-10  md:grid-cols-2  lg:max-w-[100rem] mx-auto pt-20">
                 <DiscoverCards productTitle={"Spoon Set"} productImg={img1} productPrice={"144.89"} />
                 <DiscoverCards productTitle={"Knife Set(Black)"} productImg={img2} productPrice={"154.91"} />
                 <DiscoverCards productTitle={"Knife Set(White)"} productImg={img3} productPrice={"188.89"} />
                 <DiscoverCards productTitle={"Big Spoon"} productImg={img4} productPrice={"121.89"} />
             </div>
-            <div className="flex justify-center pt-16 items-center">
+            <div className="flex justify-center pb-10 pt-16 items-center">
                 <Button btnTitle={"View All"} />
             </div>
         </div>

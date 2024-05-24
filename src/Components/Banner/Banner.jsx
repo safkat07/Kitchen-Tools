@@ -4,7 +4,7 @@ import { CiMenuFries } from "react-icons/ci";
 const Banner = () => {
     const [open, setOpen] = useState(false)
     return (
-        <div className="min-h-svh relative  bg-primary">
+        <div className="min-h-svh overflow-hidden relative  bg-primary">
             <nav className="flex  z-[99] items-center text-textPrimary px-5 md:px-10 py-5 justify-between ">
                 <p className="text-responsive-lg cursor-pointer 4E4437 font-title uppercase ">Kitchen</p>
                 <ul className="font-primary md:flex  hidden   text-responsive-sm gap-x-7">
@@ -28,7 +28,7 @@ const Banner = () => {
             {/* Your one-stop kitchen shop for tool and essentials. */}
             {/* banner text */}
             <div>
-                <div className="absolute z-[99] md:p-10 px-5 text-textPrimary bottom-3">
+                <div className="absolute z-[99] md:p-10 px-2 text-textPrimary bottom-3">
                     <p className="text-responsive-9xl leading-none font-primary tracking-wide uppercase">
                         Chef's
                     </p>

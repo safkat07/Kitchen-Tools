@@ -15,7 +15,7 @@ export default {
       fontSize: {
         'responsive-lg': 'clamp(1.5rem, 2vw + 1rem, 3rem)',
         'responsive-md': 'clamp(1rem, 1.5vw + 1rem, 2rem)',
-        'responsive-sm': 'clamp(0.875rem, 1vw + 0.5rem, 1.5rem)',
+        'responsive-sm': 'clamp(0.875rem, 1vw + 0.7rem, 1.5rem)',
         'responsive-9xl': 'clamp(4rem, 8vw + 2rem, 9rem)',
       },
       fontFamily: {

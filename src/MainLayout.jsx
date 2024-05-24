@@ -12,14 +12,14 @@ const MainLayout = () => {
   return (
     <>
       <Banner />
-      {/* <DiscoverProducts />
-      <WhyKitchen />
-      <ClearenceSell />
-      <JoinCulinary />
-      <ExperinenceFlavour />
-      <ExclusiveDeals />
-      <BlewLinks />
-      <Footer /> */}
+      <DiscoverProducts />
+      {/* <WhyKitchen /> */}
+      {/* <ClearenceSell /> */}
+      {/* <JoinCulinary /> */}
+      {/* <ExperinenceFlavour /> */}
+      {/* <ExclusiveDeals /> */}
+      {/* <BlewLinks /> */}
+      {/* <Footer /> */}
     </>
   )
 }
