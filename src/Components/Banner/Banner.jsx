@@ -20,7 +20,7 @@ const Banner = () => {
                 <button className="uppercase md:block hidden text-textSecondary text-white z-[99] font-primary text-responsive-sm border-2 hover:bg-secondary hover:text-textPrimary transition-all duration-500 hover:bg-none px-3 border-white py-2">
                     Sign-Up
                 </button>
-                <button onClick={() => setOpen(!open)} className="z-[99] font-bold md:hidden  text-xl  block text-primary">
+                <button onClick={() => setOpen(!open)} className="z-[101] font-bold md:hidden  text-xl  block text-primary">
                     <CiMenuFries />
                 </button>
             </nav>
@@ -28,26 +28,26 @@ const Banner = () => {
             {/* Your one-stop kitchen shop for tool and essentials. */}
             {/* banner text */}
             <div>
-                {/* <div className="absolute p-10 text-textPrimary bottom-3">
-                    <p className="text-[9rem] leading-none font-primary tracking-wide uppercase">
+                <div className="absolute z-[99] md:p-10 px-5 text-textPrimary bottom-3">
+                    <p className="text-responsive-9xl leading-none font-primary tracking-wide uppercase">
                         Chef's
                     </p>
-                    <p className="text-[9rem] leading-none font-primary tracking-wide uppercase">
-                        Essentials
+                    <p className="text-responsive-9xl  leading-none font-primary tracking-wide uppercase">
+                        Essenti<span className="md:text-textPrimary   text-secondary">als</span>
                     </p>
                 </div>
 
-                <div className="absolute  right-[60%] bottom-[25%] w-[13%] ">
+                {/* <div className="absolute  right-[60%] bottom-[25%] w-[13%] ">
                     <p className="text-2xl  font-primary text-textPrimary">Your one-stop kitchen shop for quality tools and essentials.</p>
                 </div> */}
 
 
-                <div className="bg-[#4E4437] w-[20%] h-screen  top-0 absolute  right-0">
+                <div className="bg-[#4E4437] z-0 md:w-[20%] w-[36%] h-screen  top-0 absolute  right-0">
 
                 </div>
             </div>
 
-            <div className={`h-[100vh]  md:hidden bg-textPrimary fixed flex justify-start transition-all duration-700 w-full  ${open ? 'top-[0%]' : '-top-[100%]'}`}>
+            <div className={`h-[100vh] z-[100]  md:hidden bg-textPrimary fixed flex justify-start transition-all duration-700 w-full  ${open ? 'top-[0%]' : '-top-[100%]'}`}>
                 <ul className="font-primary   text-secondary w-full text-4xl flex justify-center items-center flex-col  space-y-7">
                     <li onClick={console.log(true)} className="cursor-pointer"><a href="#"></a>
                         APPLIANCES</li>
