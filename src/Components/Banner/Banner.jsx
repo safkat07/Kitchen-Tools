@@ -1,6 +1,8 @@
+import { useState } from "react";
 import { CiMenuFries } from "react-icons/ci";
 
 const Banner = () => {
+    const [open, setOpen] = useState(false)
     return (
         <div className="min-h-svh relative  bg-primary">
             <nav className="flex  z-[99] items-center text-textPrimary px-5 md:px-10 py-5 justify-between ">
@@ -18,7 +20,7 @@ const Banner = () => {
                 <button className="uppercase md:block hidden text-textSecondary text-white z-[99] font-primary text-responsive-sm border-2 hover:bg-secondary hover:text-textPrimary transition-all duration-500 hover:bg-none px-3 border-white py-2">
                     Sign-Up
                 </button>
-                <button className="z-[99] font-bold md:hidden  text-xl  block text-primary">
+                <button onClick={() => setOpen(!open)} className="z-[99] font-bold md:hidden  text-xl  block text-primary">
                     <CiMenuFries />
                 </button>
             </nav>
@@ -43,6 +45,19 @@ const Banner = () => {
                 <div className="bg-[#4E4437] w-[20%] h-screen  top-0 absolute  right-0">
 
                 </div>
+            </div>
+
+            <div className={`h-[100vh]  md:hidden bg-textPrimary fixed flex justify-start transition-all duration-700 w-full  ${open ? 'top-[0%]' : '-top-[100%]'}`}>
+                <ul className="font-primary   text-secondary w-full text-4xl flex justify-center items-center flex-col  space-y-7">
+                    <li onClick={console.log(true)} className="cursor-pointer"><a href="#"></a>
+                        APPLIANCES</li>
+                    <li className="cursor-pointer"><a href="#"></a>
+                        COOKWARES
+                    </li>
+                    <li className="cursor-pointer"><a href="#"></a>
+                        COOK’S TOOLS
+                    </li>
+                </ul>
             </div>
         </div>
     )
