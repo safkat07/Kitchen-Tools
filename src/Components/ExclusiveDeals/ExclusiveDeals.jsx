@@ -6,7 +6,7 @@ import Button from '../../UseAbleComponents/Button';
 const ExclusiveDeals = () => {
     return (
         <div className="bg-textPrimary py-20">
-            <p className="text-responsive-md font-primary uppercase text-primary pt-16 pb-10 w-[40%] text-center mx-auto tracking-wide">
+            <p className="text-responsive-md font-primary uppercase text-primary pt-16 pb-10 lg:w-[30%] md:w-[60%] w-3/4 text-center mx-auto tracking-wide">
                 CUSTOMISED EXCLUSIVE DEALS AWAIT YOU
             </p>
 

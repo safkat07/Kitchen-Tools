@@ -5,7 +5,7 @@ const Banner = () => {
     const [open, setOpen] = useState(false);
 
     return (
-        <div className="min-h-screen relative bg-primary overflow-hidden">
+        <div className="md:min-h-screen h-[93vh] relative bg-primary overflow-hidden">
             <nav className="flex z-[120] items-center text-textPrimary px-5 md:px-10 py-5 justify-between">
                 <p className="text-responsive-lg cursor-pointer font-title uppercase">Kitchen</p>
                 <ul className="font-primary md:flex hidden text-responsive-sm gap-x-7">
@@ -22,7 +22,7 @@ const Banner = () => {
             </nav>
 
 
-            <div className="absolute inset-0 flex flex-col justify-end pb-10">
+            <div className="absolute inset-0 flex md:pb-0  flex-col justify-end ">
                 <div className="z-[99] md:p-10 px-5  text-textPrimary">
                     <p className="text-responsive-9xl leading-none font-primary tracking-wide uppercase">
                         Chef's
@@ -34,7 +34,7 @@ const Banner = () => {
                 <div className="bg-[#4E4437] z-0 md:w-[20%] w-[36%] h-full absolute top-0 right-0"></div>
             </div>
 
-            <div className={`h-[100vh] z-[100] md:hidden bg-textPrimary fixed flex justify-start transition-all duration-700 w-full ${open ? 'top-0' : '-top-full'}`}>
+            <div className={`h-[100vh] overflow-hidden z-[100] md:hidden bg-textPrimary fixed flex justify-start transition-all duration-700 w-full ${open ? 'top-0' : '-top-[120%]'}`}>
                 <ul className="font-primary text-secondary w-full text-4xl flex justify-center items-center flex-col space-y-7">
                     <li className="cursor-pointer"><a href="#"></a>APPLIANCES</li>
                     <li className="cursor-pointer"><a href="#"></a>COOKWARES</li>

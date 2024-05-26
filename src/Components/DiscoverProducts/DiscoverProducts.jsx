@@ -10,7 +10,9 @@ import Button from "../../UseAbleComponents/Button"
 const DiscoverProducts = () => {
     return (
         <div className="h-auto overflow-hidden bg-secondary">
-            <HeaderTitle title={"Discover Our Products"} />
+            <p className="text-responsive-lg font-primary uppercase text-textPrimary pt-16 pb-10 lg:w-[30%] w-[60%]  text-center mx-auto tracking-wide">
+                Discover Our Products
+            </p>
             <div className="flex  justify-center items-center">
                 <ul className="flex items-center justify-center gap-x-10 text-textPrimary font-secondary text-responsive-sm">
                     <li className="border-b-2  cursor-pointer">
