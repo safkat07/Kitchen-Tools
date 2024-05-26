@@ -6,7 +6,7 @@ const Banner = () => {
 
     return (
         <div className="min-h-screen relative bg-primary overflow-hidden">
-            <nav className="flex z-[99] items-center text-textPrimary px-5 md:px-10 py-5 justify-between">
+            <nav className="flex z-[120] items-center text-textPrimary px-5 md:px-10 py-5 justify-between">
                 <p className="text-responsive-lg cursor-pointer font-title uppercase">Kitchen</p>
                 <ul className="font-primary md:flex hidden text-responsive-sm gap-x-7">
                     <li className="cursor-pointer"><a href="#"></a>APPLIANCES</li>

@@ -2,7 +2,7 @@ import './footer.css'
 const Footer = () => {
   return (
     <footer className=' overflow-hidden  flex flex-col justify-between items-center text-secondary w-[100%] bg-textPrimary'>
-      <div className='flex z-[99] lg:flex-row flex-col mx-auto font-secondary p-[7vw] w-[100%] justify-center items-center lg:justify-between '>
+      <div className='flex z-[99] lg:flex-row flex-col mx-auto font-secondary p-[7vw] w-[100%] justify-center  lg:justify-between '>
         <div className='lg:w-[30%] lg:text-left text-center w-[100%]  mx-auto'>
           <p className="uppercase font-secondary text-[3.5vw] lg:text-[2vw] ">find your kitchen inspiration here!!</p>
           <p className="uppercase text-[2.5vw] lg:text-[1.5vw]">join us now!!!</p>
