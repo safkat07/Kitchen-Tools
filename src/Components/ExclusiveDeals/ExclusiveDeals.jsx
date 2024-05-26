@@ -6,16 +6,16 @@ import Button from '../../UseAbleComponents/Button';
 const ExclusiveDeals = () => {
     return (
         <div className="bg-textPrimary py-20">
-            <p className="text-6xl font-primary uppercase text-primary pt-16 pb-10 w-[40%] text-center mx-auto tracking-wide">
+            <p className="text-responsive-md font-primary uppercase text-primary pt-16 pb-10 w-[40%] text-center mx-auto tracking-wide">
                 CUSTOMISED EXCLUSIVE DEALS AWAIT YOU
             </p>
 
-            <div className="max-w-6xl mx-auto">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 ">
+            <div className="max-w-6xl xl:px-0 px-10  mx-auto">
+                <div className="grid md:grid-cols-2 grid-rows-1 lg:grid-cols-2 gap-4 ">
                     <div className="relative  bg-primary overflow-hidden p-4 rounded shadow flex flex-col justify-between ">
                         <div className="flex flex-col justify-between h-full">
                             <p className="text-4xl textw-1/2-textPrimary  font-primary uppercase  text-textPrimary">Item Name</p>
-                            <img src={img1} alt="Item Image" className="absolute -top-5  right-0  object-cover mt-4" />
+                            <img src={img1} alt="Item Image" className="absolute -top-5 md:h-[65%] right-0  object-cover mt-4" />
                             <div className="flex justify-between items-center mt-4">
                                 <p className="text-4xl font-primary uppercase text-textPrimary">$144.89</p>
                                 <IoArrowRedoCircleSharp className="text-textPrimary text-5xl cursor-pointer" />

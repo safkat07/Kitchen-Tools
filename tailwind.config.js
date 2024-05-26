@@ -17,6 +17,7 @@ export default {
         'responsive-md': 'clamp(1rem, 1.5vw + 1rem, 2rem)',
         'responsive-sm': 'clamp(0.875rem, 1vw + 0.7rem, 1.5rem)',
         'responsive-9xl': 'clamp(4rem, 8vw + 2rem, 9rem)',
+        'responsive-8xl': 'clamp(2rem, 5vw + 1rem, 5rem)',
       },
       fontFamily: {
         "title": ["Saira Stencil One", "sans-serif"],

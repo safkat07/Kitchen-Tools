@@ -4,7 +4,7 @@ import { IoArrowRedoCircleSharp } from "react-icons/io5";
 
 const DiscoverCards = ({ productTitle, productPrice, productImg }) => {
     return (
-        <div className="lg:max-h-[50vw] pb-10  mx-auto rounded-lg cursor-pointer relative min-w-[20vw]  lg:max-w-[20vw] bg-primary">
+        <div className="lg:max-h-[50vw]  pb-10  mx-auto rounded-lg cursor-pointer relative min-w-[20vw]  lg:max-w-[20vw] bg-primary">
             <div className='flex justify-between pt-5 items-center px-3'>
                 <p className='xl:text-responsive-md text-xl w-[40%] font-primary uppercase text-textPrimary'>{productTitle}</p>
                 <span className='text-textPrimary cursor-pointer xl:text-5xl text-3xl'>

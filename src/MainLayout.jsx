@@ -14,12 +14,12 @@ const MainLayout = () => {
       <Banner />
       <DiscoverProducts />
       {/* <WhyKitchen /> */}
-      {/* <ClearenceSell /> */}
-      {/* <JoinCulinary /> */}
+      <ClearenceSell />
+      <JoinCulinary />
       {/* <ExperinenceFlavour /> */}
-      {/* <ExclusiveDeals /> */}
-      {/* <BlewLinks /> */}
-      {/* <Footer /> */}
+      <ExclusiveDeals />
+      <BlewLinks />
+      <Footer />
     </>
   )
 }

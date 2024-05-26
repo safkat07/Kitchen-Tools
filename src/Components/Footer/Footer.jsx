@@ -1,64 +1,53 @@
 import './footer.css'
 const Footer = () => {
   return (
-    <div className='bg-textPrimary overflow-hidden relative text-secondary  h-[85vh]'>
-
-      <div className="w-full flex p-20 justify-between items-center">
-        <div className="w-[40%] relative ">
-          <p className="uppercase font-secondary text-4xl w-1/2">find your kitchen inspiration here!!</p>
-          <p className="uppercase font-secondary text-4xl w-1/2">join us now</p>
-          <input type="text" placeholder="EMAIL" className="w-[45%] outline-none py-2  pl-2 placeholder-secondary placeh bg-textPrimary border-2 border-primary " />
-          <input value="Ok" type="submit" className=" text-textPrimary font-bold border-2 bg-primary border-primary px-3 py-2" />
+    <footer className='min-h-[85vh] overflow-hidden  flex flex-col justify-between items-center text-secondary w-[100%] bg-textPrimary'>
+      <div className='flex z-[99] mx-auto font-secondary p-[7vw] w-[100%] justify-between '>
+        <div className='w-[30%]   mx-auto'>
+          <p className="uppercase font-secondary text-[2vw] ">find your kitchen inspiration here!!</p>
+          <p className="uppercase text-[1.5vw]">join us now!!!</p>
+          <form className='flex pt-5'>
+            <input type="text" placeholder="EMAIL" className="w-full outline-none py-2   placeholder-secondary pl-2 placeh bg-textPrimary border-2 border-primary " />
+            <input value="Ok" type="submit" className=" text-textPrimary font-bold border-2 bg-primary border-primary px-3 py-2" />
+          </form>
         </div>
-        <div className=" flex justify-center items-center gap-16">
+        <div className='w-[50%] flex  justify-between mx-auto'>
           <div>
             <p className='ftitle'>Resources</p>
-            <ul className="flex text-xl uppercase font-secondary items-end flex-col justify-center">
-              <li>Blog</li>
-              <li>buying guides</li>
-              <li>gift card</li>
-              <li>recipes</li>
-              <li>reviews</li>
+            <ul className="flex lg:text-xl text-sm uppercase font-secondary md:items-end items-center flex-col justify-center">
+               <li className= "cursor-pointer">Blog</li>
+               <li className= "cursor-pointer">buying guides</li>
+               <li className= "cursor-pointer">gift card</li>
+               <li className= "cursor-pointer">recipes</li>
+               <li className= "cursor-pointer">reviews</li>
             </ul>
           </div>
           <div>
             <p className='ftitle'>My Account</p>
-            <ul className="flex text-xl uppercase font-secondary items-end flex-col justify-center">
-              <li>checkout</li>
-              <li>earn reward</li>
-              <li>order status</li>
-              <li>return</li>
-              <li>view cart</li>
+            <ul className="flex lg:text-xl text-sm uppercase font-secondary md:items-end items-center flex-col justify-center">
+               <li className= "cursor-pointer">checkout</li>
+               <li className= "cursor-pointer">earn reward</li>
+               <li className= "cursor-pointer">order status</li>
+               <li className= "cursor-pointer">return</li>
+               <li className= "cursor-pointer">view cart</li>
             </ul>
           </div>
           <div>
             <p className='ftitle'>Policies</p>
-            <ul className="flex text-xl uppercase font-secondary items-end flex-col justify-center">
-              <li>price match</li>
-              <li>privacy policy</li>
-              <li>return policy</li>
-              <li>shipping policy</li>
-              <li>terms of services</li>
+            <ul className="flex lg:text-xl text-sm uppercase font-secondary md:items-end items-center flex-col justify-center">
+               <li className= "cursor-pointer">price match</li>
+               <li className= "cursor-pointer">privacy policy</li>
+               <li className= "cursor-pointer">return policy</li>
+               <li className= "cursor-pointer">shipping policy</li>
+               <li className= "cursor-pointer">terms of services</li>
             </ul>
           </div>
         </div>
-
       </div>
-
-
-
-
-
-
-
-      <div className="absolute inline-block left-0 right-0 -bottom-14 ">
-        <p className="uppercase  font-title text-center text-9xl lg:text-[25rem]  mx-auto">
-          <i>
-            kitchen
-          </i>
-        </p>
+      <div className='w-full mx-auto '>
+        <h1 className='uppercase font-title flex justify-center items-center   text-[20vw] tracking-wider italic leading-[15vw]'>Kitchen</h1>
       </div>
-    </div>
+    </footer>
   )
 }
 
