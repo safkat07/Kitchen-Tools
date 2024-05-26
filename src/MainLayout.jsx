@@ -11,15 +11,15 @@ import WhyKitchen from "./Components/WhyKitchen/WhyKitchen"
 const MainLayout = () => {
   return (
     <>
-      {/* <Banner /> */}
-      {/* <DiscoverProducts /> */}
-      {/* <WhyKitchen /> */}
-      {/* <ClearenceSell /> */}
-      {/* <JoinCulinary /> */}
+      <Banner />
+      <DiscoverProducts />
+      <WhyKitchen />
+      <ClearenceSell />
+      <JoinCulinary />
       <ExperinenceFlavour />
       <ExclusiveDeals />
-      {/* <BlewLinks /> */}
-      {/* <Footer /> */}
+      <BlewLinks />
+      <Footer />
     </>
   )
 }

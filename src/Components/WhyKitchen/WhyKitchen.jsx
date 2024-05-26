@@ -35,7 +35,7 @@ const WhyKitchen = () => {
                 </div>
             </div>
             <div className='grid relative z-[99]  justify-center'>
-                <img className=' w-[45%] rotate-3  mx-auto' src={manimg} alt="" />
+                <img className=' md:w-[55%] w-3/4 rotate-3  mx-auto' src={manimg} alt="" />
             </div>
         </div>
         {/* <div className='w-72 absolute h-80 bg-textPrimary'>
